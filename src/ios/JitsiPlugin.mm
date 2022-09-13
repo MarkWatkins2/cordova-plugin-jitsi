@@ -20,7 +20,8 @@ CDVPluginResult *pluginResult = nil;
         builder.room = room;
         builder.subject = @" ";
         builder.token = token;
-        builder.welcomePageEnabled = NO;
+        // welcomePageEnabled now seems to be a feature flag. not an option. and it defaults to no/false anyway.
+        // builder.welcomePageEnabled = NO;
         builder.audioOnly = isAudioOnly;
         [builder setFeatureFlag:@"chat.enabled" withBoolean:true];
         [builder setFeatureFlag:@"invite.enabled" withBoolean:false];
