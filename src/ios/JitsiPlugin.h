@@ -9,6 +9,7 @@
 
 - (void)join:(CDVInvokedUrlCommand *)command;
 - (void)destroy:(CDVInvokedUrlCommand *)command;
+// seems neither used nor defined, and throws a compiler warning.
 - (void)backButtonPressed:(CDVInvokedUrlCommand *)command; 
 - (void)conferenceFailed:(NSDictionary *)data;
 - (void)conferenceJoined:(NSDictionary *)data;
