@@ -1,6 +1,8 @@
 ext.cdvMinSdkVersion = 23
 
 android {
+        compileSdkVersion 31
+    	buildToolsVersion "30.0.3"
 	repositories {
 		maven {
             		url "https://github.com/jitsi/jitsi-maven-repository/raw/master/releases"
